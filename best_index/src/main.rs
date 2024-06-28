@@ -28,7 +28,7 @@ fn main() {
 
     // Looping through each element in the array to find the maximum sum of the subarrays
     for i in 0..arr.len() {
-        let mut curr_sum = 0;
+        let mut curr_sum ;
         if i == 0 {
             // If the index is 0, current sum is the first element itself
             curr_sum = arr[i];
